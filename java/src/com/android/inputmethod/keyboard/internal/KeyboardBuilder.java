@@ -104,7 +104,7 @@ import javax.annotation.Nonnull;
  *     &lt;switch&gt;
  *       &lt;case mode="email"&gt;
  *         &lt;key-style styleName="f1-key" parentStyle="modifier-key"
- *           keyLabel="com.android.inputmethod.latin.com"
+ *           keyLabel=".com"
  *         /&gt;
  *       &lt;/case&gt;
  *       &lt;case mode="url"&gt;

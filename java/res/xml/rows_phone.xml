@@ -19,7 +19,7 @@
 -->
 
 <merge
-    xmlns:latin="http://schemas.android.com/apk/res/com.spisoft.aosp.inputmethod.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin"
 >
     <include
         latin:keyboardLayout="@xml/key_styles_common" />
@@ -48,7 +48,7 @@
         <Key
             latin:keyStyle="num6KeyStyle" />
         <Key
-            latin:keySpec="com.android.inputmethod.latin."
+            latin:keySpec="."
             latin:keyStyle="numKeyStyle"
             latin:backgroundType="functional"
             latin:keyWidth="fillRight" />

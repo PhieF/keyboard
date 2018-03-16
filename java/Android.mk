@@ -11,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-my_embed_jni := true
 
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
@@ -25,8 +24,6 @@ LOCAL_PACKAGE_NAME := LatinIME
 LOCAL_CERTIFICATE := shared
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_latinime
-LOCAL_PREBUILT_JNI_LIBS := libs/armeabi-v7a/libjni_latinime.so
-
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
         android-common inputmethod-common android-support-v4 jsr305 latinime-common
