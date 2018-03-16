@@ -18,7 +18,7 @@
 */
 -->
 
-<merge xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.spisoft.aosp.inputmethod.latin">
     <switch>
         <case latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
             <!-- U+0E24: "ฤ" THAI CHARACTER RU -->
@@ -52,7 +52,7 @@
             <!-- U+0E0B: "ซ" THAI CHARACTER SO SO -->
             <Key latin:keySpec="&#x0E0B;" />
             <Key
-                latin:keySpec="."
+                latin:keySpec="com.android.inputmethod.latin."
                 latin:keyLabelFlags="fontDefault" />
         </case>
         <default>

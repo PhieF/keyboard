@@ -19,7 +19,7 @@
 -->
 
 <merge
-    xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.spisoft.aosp.inputmethod.latin"
 >
     <switch>
         <case
@@ -50,7 +50,7 @@
                 latin:additionalMoreKeys="2"
                 latin:moreKeys="\?,&lt;" />
             <Key
-                latin:keySpec="."
+                latin:keySpec="com.android.inputmethod.latin."
                 latin:keyHintLabel="3"
                 latin:additionalMoreKeys="3"
                 latin:moreKeys="&gt;" />

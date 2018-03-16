@@ -19,7 +19,7 @@
 -->
 
 <merge
-    xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.spisoft.aosp.inputmethod.latin"
 >
     <switch>
         <case
@@ -29,7 +29,7 @@
                 latin:keySpec=","
                 latin:additionalMoreKeys="&lt;" />
             <Key
-                latin:keySpec="."
+                latin:keySpec="com.android.inputmethod.latin."
                 latin:additionalMoreKeys="&gt;" />
             <Key
                 latin:keySpec="/"

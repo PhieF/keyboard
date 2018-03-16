@@ -19,7 +19,7 @@
 -->
 
 <merge
-    xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin"
+    xmlns:latin="http://schemas.android.com/apk/res/com.spisoft.aosp.inputmethod.latin"
 >
     <Row>
         <Key
@@ -54,7 +54,7 @@
                 latin:mode="date"
             >
                 <Key
-                    latin:keySpec="."
+                    latin:keySpec="com.android.inputmethod.latin."
                     latin:keyStyle="numKeyStyle"
                     latin:backgroundType="functional"
                     latin:keyWidth="fillRight" />
@@ -63,7 +63,7 @@
                 latin:mode="time|datetime"
             >
                 <Key
-                    latin:keySpec="."
+                    latin:keySpec="com.android.inputmethod.latin."
                     latin:moreKeys="!text/morekeys_am_pm"
                     latin:keyLabelFlags="hasPopupHint"
                     latin:keyStyle="numKeyStyle"
@@ -119,7 +119,7 @@
             </case>
             <default>
                 <Key
-                    latin:keySpec="."
+                    latin:keySpec="com.android.inputmethod.latin."
                     latin:keyStyle="numKeyStyle" />
             </default>
         </switch>
