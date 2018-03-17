@@ -22,13 +22,13 @@ ifeq ($(LATINIME_HOST_OSNAME), Darwin) # TODO: Remove this
 $(warning dicttool_aosp is not supported on $(LATINIME_HOST_OSNAME))
 else # TODO: Remove this
 
-LATINIME_DICTTOOL_AOSP_LOCAL_PATH := $(call my-dir)
-LOCAL_PATH := $(LATINIME_DICTTOOL_AOSP_LOCAL_PATH)
+LATINIME_DICTTOOL_Spi edition_LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := $(LATINIME_DICTTOOL_Spi edition_LOCAL_PATH)
 LATINIME_HOST_NATIVE_LIBNAME := liblatinime-aosp-dicttool-host
 include $(LOCAL_PATH)/NativeLib.mk
 
 ######################################
-LOCAL_PATH := $(LATINIME_DICTTOOL_AOSP_LOCAL_PATH)
+LOCAL_PATH := $(LATINIME_DICTTOOL_Spi edition_LOCAL_PATH)
 include $(CLEAR_VARS)
 
 LATINIME_LOCAL_DIR := ../..
@@ -89,7 +89,7 @@ include $(LOCAL_PATH)/etc/Android.mk
 endif # Darwin - TODO: Remove this
 
 # Clear our private variables
-LATINIME_DICTTOOL_AOSP_LOCAL_PATH :=
+LATINIME_DICTTOOL_Spi edition_LOCAL_PATH :=
 LATINIME_LOCAL_DIR :=
 LATINIME_HOST_OSNAME :=
 
